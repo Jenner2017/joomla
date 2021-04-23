@@ -1513,11 +1513,11 @@
             "installation-source": "dist",
             "autoload": {
                 "classmap": [
-                    "class.phpmailer.php",
-                    "class.phpmaileroauth.php",
+                    "PHPMailer.php",
+                    "OAuth.php",
                     "class.phpmaileroauthgoogle.php",
-                    "class.smtp.php",
-                    "class.pop3.php",
+                    "SMTP.php",
+                    "POP3.php",
                     "extras/EasyPeasyICS.php",
                     "extras/ntlm_sasl_client.php"
                 ]
